@@ -3,3 +3,11 @@
 /*
 font-family: 'STIX Two Text', serif;
 */
+
+/* basic reset - asterix applies to all the page */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
