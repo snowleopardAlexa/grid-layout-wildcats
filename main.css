@@ -27,6 +27,24 @@ main {
 }
 
 .desc {
+    font-family: 'STIX Two Text', serif;
+    font-weight: 1rem;
+    line-height: 20px;
     color: blue;
+}
+
+.cards {
+    grid-column: 2 / span 12;
+    display: grid;
+    grid-template-columns: 1fr repeat(12, minmax(auto, 60px));
+    grid-gap: 40px;
+}
+
+.card {
+    grid-column-end: span 4;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    cursor: pointer;
 }
 
