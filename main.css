@@ -34,7 +34,7 @@ body {
   }
   
   .img {
-    border-radius: 15px;
+    border-radius: 20px;
     height: 200px;
     width: 100%;
     object-fit: cover;
@@ -49,7 +49,7 @@ body {
       width: 100%;
       position: absolute;
       z-index: 2;
-      margin-top: -15px;
+      margin-top: -20px;
       background-color: rgb(175, 211, 142); 
       color: black;
       position: absolute;
@@ -63,7 +63,7 @@ body {
 
   .title {
   
-    border-top-right-radius: 50px;
+    border-radius: 20px;
     font-family: 'STIX Two Text', serif;  
     position: absolute;
     bottom: 4px;
