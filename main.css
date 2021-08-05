@@ -24,7 +24,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 150px;
-    max-width: 960px;
+    max-width: 1260px;
     margin: 50px auto 30px;
 }
 
@@ -48,14 +48,17 @@ body {
   .desc {
       position: absolute;
       z-index: 2;
-      margin-top: -13px;
+      margin-top: -15px;
       background-color: rgb(175, 211, 142); 
       color: black;
       position: absolute;
-      
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
   }
 
   .title {
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
     font-family: 'STIX Two Text', serif;  
     position: absolute;
     bottom: 4px;
