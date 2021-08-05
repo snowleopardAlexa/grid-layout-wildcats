@@ -17,6 +17,9 @@ body {
 
 /* grid */
 .cards {
+    background: #000814;
+    border: 10px solid rgb(175, 211, 142);
+    border-radius: 20px;
     padding: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
