@@ -1,7 +1,7 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 /*
-font-family: 'STIX Two Text', serif;
+font-family: 'Ubuntu', sans-serif;
 */
 
 /* basic reset - asterix applies to all the page */
@@ -12,6 +12,7 @@ font-family: 'STIX Two Text', serif;
 }
 
 body {
+    font-family: 'Ubuntu', sans-serif;
     background-color: #fff;
 }
 
@@ -23,7 +24,7 @@ body {
     padding: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 150px;
+    grid-gap: 120px;
     max-width: 1260px;
     margin: 50px auto 30px;
 }
@@ -32,6 +33,8 @@ body {
     position: relative;
     z-index: 3;
   }
+
+ 
   
   .img {
     border-radius: 20px;
@@ -46,11 +49,12 @@ body {
   }
 
   .desc {
+      padding: 10px;
       width: 100%;
       position: absolute;
       z-index: 2;
       margin-top: -20px;
-      background-color: rgb(175, 211, 142); 
+      background-color: #006400;
       color: black;
       position: absolute;
       border-bottom-left-radius: 10px;
@@ -59,12 +63,22 @@ body {
 
   .desc-title {
       margin-top: 20px;
+      color: #fff;
+  }
+
+  .left {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+  }
+
+  .status {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
   }
 
   .title {
-  
     border-radius: 20px;
-    font-family: 'STIX Two Text', serif;  
+    font-family: 'Ubuntu', sans-serif;
     position: absolute;
     bottom: 4px;
     width: 100%;
