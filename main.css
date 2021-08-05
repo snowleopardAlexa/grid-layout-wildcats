@@ -46,6 +46,7 @@ body {
   }
 
   .desc {
+      width: 100%;
       position: absolute;
       z-index: 2;
       margin-top: -15px;
@@ -56,8 +57,12 @@ body {
       border-bottom-right-radius: 10px;
   }
 
+  .desc-title {
+      margin-top: 20px;
+  }
+
   .title {
-    border-bottom-left-radius: 50px;
+  
     border-top-right-radius: 50px;
     font-family: 'STIX Two Text', serif;  
     position: absolute;
